@@ -4,24 +4,24 @@ This repository provides a comprehensive guide to building a real-time streaming
 
 ![streaming-data-pipeline-with-kafka-on-ec2](./images/streaming-data-pipeline-with-kafka-on-ec2.png)
 
-### Key Highlights:
+### **Key Highlights:**
 
-- **Architecture Overview:**
+##### **Architecture Overview:**
  - Data Source: CSV file simulating real-time data streams.
  - Streaming Simulator: Python script that reads from the CSV and sends data to Kafka in small, timed batches.
  - Kafka on EC2: Kafka brokers are deployed on an AWS EC2 instance to handle streaming and message queuing.
  - AWS S3: Consumed data is stored in AWS S3 for long-term retention and analysis.
 
-- **Scalability & Fault Tolerance:**
-Kafka’s distributed architecture ensures fault tolerance and scalability, capable of handling large volumes of data across multiple producers and consumers. This pipeline can scale horizontally to meet increasing data demands.
+##### **Scalability & Fault Tolerance:**
+ - Kafka’s distributed architecture ensures fault tolerance and scalability, capable of handling large volumes of data across multiple producers and consumers. This pipeline can scale horizontally to meet increasing data demands.
 
-- **Use Cases:**
+##### **Use Cases:**
  - Real-time monitoring of IoT devices.
  - Live user activity tracking.
  - Financial transaction data processing.
  - Log aggregation and analytics.
 
-- **Technologies Used:**
+##### **Technologies Used:**
  - Apache Kafka – Real-time message streaming and processing.
  - AWS EC2 – Cloud infrastructure to host Kafka brokers.
  - AWS S3 – Durable, scalable, and cost-effective storage solution.
